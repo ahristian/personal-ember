@@ -1,7 +1,339 @@
-{{page-title "PersonalEmber"}}
-
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
+{{page-title 'PersonalEmber'}}
+<div class="whole-page">
+  <header>
+    <div class="bg">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md">
+            <nav class="navbar navbar-expand-md navbar-light bg-none">
+              <button
+                class="navbar-toggler bg-light"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-end pt-3 pr-3"
+                id="navbarNavDropdown"
+              >
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">
+                      About Me
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">
+                      Portfolio
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      href="#"
+                      role="button"
+                      aria-expanded="false"
+                    >
+                      Contact
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item text-dark" href="#">
+                          LinkedIn
+                          <FaIcon
+                            @icon="linkedin"
+                            @size="1x"
+                            class="mx-2 text-primary"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item text-dark"
+                          href="https://github.com/ahristian"
+                          target="_blank"
+                        >
+                          GitHub
+                          <FaIcon @icon="github" @size="1x" class="mx-2" />
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col">
+            <div class="text-white pl-2">
+              <h1 class="display-2">
+                Andrei Hristian
+              </h1>
+              <h2 class="h2">
+                Web Developer
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="aboutMe" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center">
+          <div class="media">
+            <img
+              src="/img/me.png"
+              class="image-profile rounded-circle"
+              alt="A photo with Andrei"
+            />
+          </div>
+        </div>
+        <div class="col-md-8 pt-3">
+          <h2 class="text-center pb-3">
+            About Me
+          </h2>
+          <div class="media-body">
+            <p>
+              My name is Andrei Hristian. I am a software developer with experience in Ember, React, Rails,
+              Python, R, TailwindCSS, Bootstrap and Adobe XD.
+            </p>
+            <p>
+              I am a graduate student of master Degree in Data Anallytics at NMSU.
+                I have prior experience in engineer planing
+                architecture, and customer service. I have great passion for coding and learning new
+                skills. I am a graduate student at CNM with their Deep Dive Coding Fullstack Bootcamp
+                program. My goal for the future is to become a Senior Developer.
+            </p>
+            <p>
+              I am looking to apply my skills to a job in need of a front-end and back-end web
+                developer. I can quickly integrate myself in new teams, I adapted quickly in our new
+                remote environment and learned how to improve my skills. I am look for a company which
+                are meticulous to details and have a goal to do quality work. Also, a company eager to
+                provide the best services and to overcome with improvement from any challenges!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="jumbotron jumbotron-fluid py-3">
+    <div class="container">
+      <div class="row-md">
+        <div class="media-body col-md">
+          <h2 class="text-center  py-5">
+            My Skills
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row skills icon py-3">
+        <div class="col text-center">
+          <FaIcon @icon="git" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            Git
+          </p>
+        </div>
+        <div class="col text-center">
+          <FaIcon @icon="js" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            JavaScript
+          </p>
+        </div>
+        <div class="col text-center">
+          <FaIcon @icon="ember" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            Ember.JS
+          </p>
+        </div>
+        <div class="col text-center">
+          <FaIcon @icon="node-js" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            Node.JS
+          </p>
+        </div>
+      </div>
+      <div class="row skills icon py-3">
+        <div class="col text-center">
+          <FaIcon @icon="css3" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            TailwindCSS
+          </p>
+        </div>
+        <div class="col text-center">
+          <FaIcon @icon="bootstrap" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            Bootstrap
+          </p>
+        </div>
+        <div class="col text-center">
+          <FaIcon @icon="react" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            REACT
+          </p>
+        </div>
+        <div class="col text-center">
+          <FaIcon @icon="github" @size="3x" class="mx-2" />
+          <p class="pt-3">
+            GitHub
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div class="col-lg text-center mt-5 pt-5">
+      <h2>
+        My Portfolio
+      </h2>
+    </div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg">
+          <div class="mb2 px-4">
+            <div class="card border-orange text-center mb-5">
+              <a href="http://moldova.devandrei.com/" target="_blank">
+                <img
+                  class="card-img-top"
+                  src="/img/moldova.png"
+                  alt="First slide"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">
+                  MOLDOVA TRAVEL GUIDE
+                </h5>
+                <p class="card-text">
+                  This is a project website about destinations, food, and traditions
+                                    from Moldova. I want to present the country destinations and to make an interactive
+                                    website which gives possibility to the user to store his destinations. For this
+                                    website, I used React Bootstrap to make an active interactive website. In the
+                                    backend, I used Express to create REST APIS calls for data. As data, I used MySql
+                                    database where I created and store the data. I am using Digital Ocean Droplet to
+                                    spin up Docker container.
+                </p>
+              </div>
+              <div class="text-center">
+                <a
+                  href="http://moldova.devandrei.com/"
+                  target="_blank"
+                  class="btn btn-dark"
+                >
+                  Link to
+                                    website
+                </a>
+              </div>
+              <div class="card-footer mt-4">
+                Date: 9/28/2020
+              </div>
+            </div>
+            <div class="card border-orange text-center mb-5">
+              <a href="http://abqmurals.online/">
+                <img
+                  class="card-img-top"
+                  src="/img/screen2.png"
+                  alt="First slide"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">
+                  ABQMurals Website
+                </h5>
+                <p class="card-text">
+                  This is mine teamwork, Capstone project to present the Murals art
+                                    from
+                                    Albuquerque. It was done with React Bootstrap, Express, Node, and MySQL. We used
+                                    Albuquerque Public Art API as a source for murals data and I integrated murals
+                                    information into a Map using API calls and to make the interactive user experience
+                                    on the website. I made an API to count users likes and to sort murals into the most
+                                    liked mural top. We worked together as a team to obtain an easy to access, clear,
+                                    and self intuitive user experience website.
+                </p>
+              </div>
+              <div class="text-center">
+                <a
+                  href="http://abqmurals.online/"
+                  target="_blank"
+                  class="btn btn-dark"
+                >
+                  Link to
+                                    website
+                </a>
+              </div>
+              <div class="card-footer mt-4">
+                Date: 9/23/2020
+              </div>
+            </div>
+            <div class="card border-orange text-center mb-5">
+              <a href="https://www.pegasfood.shop/" target="_blank">
+                <img
+                  class="card-img-top"
+                  src="/img/screen1.png"
+                  alt="First slide"
+                />
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Pegas Food Website
+                </h5>
+                <p class="card-text">
+                  This is a project to improve my coding knowledge. I made a Food
+                                    delivery website to practice my HTML and CSS skills. In this website, I learned how
+                                    to manipulate images, combine colors, fonts to obtain a beautiful design.
+                </p>
+              </div>
+              <div class="text-center">
+                <a
+                  href="https://www.pegasfood.shop/"
+                  target="_blank"
+                  class="btn btn-dark"
+                >
+                  Link to
+                                    website
+                </a>
+              </div>
+              <div class="card-footer mt-4">
+                Date: 8/13/2020
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="contact-info" class="footer-fluid mt-5 pt-5">
+    <div class="column">
+      <span class="d-block text-center p-3 bg-dark text-white">
+        Contact me directly on:
+        <a
+          class="text-white"
+          href="https://www.linkedin.com/in/andrei-hristian-a673551b3/"
+          target="_blank"
+        >
+          <FaIcon @icon="linkedin" @size="2x" class="mx-2" />
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/ahristian"
+          class="text-white"
+          target="_blank"
+        >
+          <FaIcon @icon="github" @size="2x" class="mx-2 text-white" />
+          Github
+        </a>
+      </span>
+    </div>
+  </footer>
+</div>
 {{outlet}}

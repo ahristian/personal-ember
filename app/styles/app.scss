@@ -1,0 +1,92 @@
+@import 'bootstrap';
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Serif", "sans-serif";
+    letter-spacing: 1px;
+}
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0)), url(/img/canyon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.nav-item a {
+    color: white;
+    font-weight: 200;
+}
+
+.nav-link:active,
+.nav-link:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #e67e22;
+    color: white;
+}
+h2 {
+    font-size: 40px;
+
+}
+.image-profile {
+    margin-top: 1rem;
+    width: 95%;
+    height: auto;
+    transition: transform 0.5s;
+}
+.media-text {
+    margin-top: 1rem;
+    text-align: justify;
+
+}
+.media-body {
+text-align: justify;
+}
+
+.image-profile:hover {
+    transform: scale(1.2);
+}
+.jumbotron-fluid, .input-group-text{
+    background-color: #F49C4D ;
+}
+
+.btn{
+    background-color: #e67e22;
+}
+.border-orange {
+    border: 1px solid #924500;
+    box-shadow: 1px 1px 1rem  #924500;
+}
+.card-text {
+    text-align: left;
+    letter-spacing: 0.7px;
+}
+.card-title {
+    font-weight: bold;
+}
+
+.carousel-item img{
+    width: 75%;
+}
+.portfolio:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 70%;
+    margin: 5rem auto 0;
+}
+
+.footer-fluid a .fa {
+    color: #e67e22;
+}
+
