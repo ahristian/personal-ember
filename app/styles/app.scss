@@ -40,6 +40,8 @@ h2 {
 .image-profile {
     margin-top: 1rem;
     width: 95%;
+    height: auto;
+    transition: transform 0.5s;
 }
 .media-text {
     margin-top: 1rem;
@@ -50,9 +52,6 @@ h2 {
 text-align: justify;
 }
 
-.image-profile:hover {
-    transform: scale(1.2);
-}
 .jumbotron-fluid, .input-group-text{
     background-color: #F49C4D ;
 }
