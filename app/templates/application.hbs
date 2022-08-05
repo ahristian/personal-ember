@@ -89,20 +89,26 @@
   </header>
   <section id='aboutMe' class='py-5'>
     <div class='container'>
+      <h2 class='text-center pb-3'>
+        About Me
+      </h2>
       <div class='row justify-content-center'>
-        <div class='col-md-4 d-flex justify-content-center'>
-          <div class='media'>
+        <div class='col-md-3 d-flex justify-content-center'>
+          <div class='media w-50'>
             <img
               src='/img/me.png'
+              sizes='(min-width: 1200px) 730w,
+                          (max-width: 1199px) 610w,
+                          (max-width: 380px) 350w'
+              srcset='/img/me.png 730w,
+                          /img/tablet_me.png 610w,
+                          /img/mobile_me.png 350w'
               class='image-profile rounded-circle'
               alt='A photo with Andrei'
             />
           </div>
         </div>
-        <div class='col-md-8 pt-3'>
-          <h2 class='text-center pb-3'>
-            About Me
-          </h2>
+        <div class='col-md-9 pt-3'>
           <div class='media-body'>
             <p>
               My name is Andrei Hristian. I am a software developer with
@@ -221,9 +227,15 @@
             <div class='card border-orange text-center mb-5'>
               <a href='https://summit.com/' target='_blank'>
                 <img
-                  class='card-img-top'
+                  sizes='(min-width: 1200px) 730w,
+                          (max-width: 1199px) 610w,
+                          (max-width: 380px) 350w'
+                  srcset='/img/summit.png 730w,
+                          /img/tablet_summit.png 610w,
+                          /img/mobile_summit.png 350w'
                   src='/img/summit.png'
                   alt='Summit slide'
+                  class='card-img-top'
                 />
               </a>
               <div class='card-body'>
@@ -231,7 +243,11 @@
                   Summit Supply Electric
                 </h5>
                 <p class='card-text'>
-                  This is the Summit Supply Electric website for which I improved testing suite, improved performance, converted js to Typescript, converted BootstrapCSS to TailwindCSS, updated Elasticsearch (indexing and queries), improved UI and UX for many pages and much more.
+                  This is the Summit Supply Electric website for which I
+                  improved testing suite, improved performance, converted js to
+                  Typescript, converted BootstrapCSS to TailwindCSS, updated
+                  Elasticsearch (indexing and queries), improved UI and UX for
+                  many pages and much more.
                 </p>
               </div>
               <div class='text-center'>
@@ -251,6 +267,12 @@
               <a href='https://food-app.devandrei.me/' target='_blank'>
                 <img
                   class='card-img-top'
+                  sizes='(min-width: 1200px) 730w,
+                          (max-width: 1199px) 610w,
+                          (max-width: 380px) 350w'
+                  srcset='/img/screen1.png 730w,
+                          /img/tablet_screen1.png 610w,
+                          /img/mobile_screen1.png 350w'
                   src='/img/screen1.png'
                   alt='First slide'
                 />
@@ -284,6 +306,12 @@
                 <img
                   class='card-img-top'
                   src='/img/moldova.png'
+                  sizes='(min-width: 1200px) 730w,
+                          (max-width: 1199px) 610w,
+                          (max-width: 380px) 350w'
+                  srcset='/img/moldova.png 730w,
+                          /img/tablet_moldova.png 610w,
+                          /img/mobile_moldova.png 350w'
                   alt='First slide'
                 />
               </a>
@@ -317,7 +345,13 @@
               <a href='https://vladsanteh.de/'>
                 <img
                   class='card-img-top'
-                  src='/img/Screen Shot 2021-12-22 at 9.04.49 PM.png'
+                  src='/img/vladsanteh.png'
+                  sizes='(min-width: 1200px) 730w,
+                          (max-width: 1199px) 610w,
+                          (max-width: 380px) 350w'
+                  srcset='/img/vladsanteh.png 730w,
+                          /img/tablet_vladsanteh.png 610w,
+                          /img/mobile_vladsanteh.png 350w'
                   alt='First slide'
                 />
               </a>
