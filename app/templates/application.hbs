@@ -92,47 +92,39 @@
       <h2 class='text-center pb-3'>
         About Me
       </h2>
-      <div class='row justify-content-center'>
-        <div class='col-md-3 d-flex justify-content-center'>
-          <div class='media w-50'>
-            <img
-              src='/img/me.png'
-              sizes='(min-width: 1200px) 730w,
+      <div class="p-2">
+        <img
+          src='/img/me.png'
+          sizes='(min-width: 1200px) 730w,
                           (max-width: 1199px) 610w,
                           (max-width: 380px) 350w'
-              srcset='/img/me.png 730w,
+          srcset='/img/me.png 730w,
                           /img/tablet_me.png 610w,
                           /img/mobile_me.png 350w'
-              class='image-profile rounded-circle'
-              alt='A photo with Andrei'
-            />
-          </div>
-        </div>
-        <div class='col-md-9 pt-3'>
-          <div class='media-body'>
-            <p>
-              My name is Andrei Hristian. I am a software developer with
-              experience in Ember, React, Rails, Python, R, TailwindCSS,
-              Bootstrap and Adobe XD.
-            </p>
-            <p>
-              I am a graduate student of master Degree in Data Anallytics at
-              NMSU. I have prior experience in engineer planing architecture,
-              and customer service. I have great passion for coding and learning
-              new skills. I am a graduate student at CNM with their Deep Dive
-              Coding Fullstack Bootcamp program. My goal for the future is to
-              become a Senior Developer.
-            </p>
-            <p>
-              I am looking to apply my skills to a job in need of a front-end
-              and back-end web developer. I can quickly integrate myself in new
-              teams, I adapted quickly in our new remote environment and learned
-              how to improve my skills. I am look for a company which are
-              meticulous to details and have a goal to do quality work. Also, a
-              company eager to provide the best services and to overcome with
-              improvement from any challenges!
-            </p>
-          </div>
+          class='media image-profile rounded-circle'
+          alt='A photo with Andrei'
+        />
+        <div class='media-body'>
+          My name is Andrei Hristian. I am a software developer with experience
+          in Ember, React, Rails, Python, R, TailwindCSS, Bootstrap and Adobe
+          XD.
+          <br />
+          <br />
+          I am a graduate student of master Degree in Data Anallytics at NMSU. I
+          have prior experience in engineer planing architecture, and customer
+          service. I have great passion for coding and learning new skills. I am
+          a graduate student at CNM with their Deep Dive Coding Fullstack
+          Bootcamp program. My goal for the future is to become a Senior
+          Developer.
+          <br />
+          <br />
+          I am looking to apply my skills to a job in need of a front-end and
+          back-end web developer. I can quickly integrate myself in new teams, I
+          adapted quickly in our new remote environment and learned how to
+          improve my skills. I am look for a company which are meticulous to
+          details and have a goal to do quality work. Also, a company eager to
+          provide the best services and to overcome with improvement from any
+          challenges!
         </div>
       </div>
     </div>
@@ -141,71 +133,69 @@
     <div class='container'>
       <div class='row-md'>
         <div class='media-body col-md'>
-          <h2 class='text-center py-5'>
+          <h2 class='text-center py-1 md:py-5'>
             My Skills
           </h2>
         </div>
       </div>
     </div>
     <div class='container'>
-      <div class='row skills icon py-3'>
-        <div class='col text-center'>
+      <div class='d-flex flex-wrap skills icon py-3'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='git' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Git
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='js' @size='3x' class='mx-2' />
           <p class='pt-3'>
             JavaScript
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='rust' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Rust
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='ember' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Ember.JS
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='searchengin' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Elasticsearch
           </p>
         </div>
-      </div>
-      <div class='row skills icon py-3'>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='css3' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Tailwind CSS
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='bootstrap' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Bootstrap CSS
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='react' @size='3x' class='mx-2' />
           <p class='pt-3'>
             React JS
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='python' @size='3x' class='mx-2' />
           <p class='pt-3'>
             Python
           </p>
         </div>
-        <div class='col text-center'>
+        <div class='col text-center p-3'>
           <FaIcon @icon='github' @size='3x' class='mx-2' />
           <p class='pt-3'>
             GitHub
@@ -215,111 +205,113 @@
     </div>
   </section>
   <section id='portfolio'>
-    <div class='col-lg text-center mt-5 pt-5'>
+    <div class='col-lg text-center md:mt-5 pt-5'>
       <h2>
         My Portfolio
       </h2>
     </div>
-    <div class='container py-5'>
+    <div class='container pt-3'>
       <div class='row'>
         <div class='col-lg'>
           <div class='mb2 px-4'>
-            <div class='card border-orange text-center mb-5'>
-              <a href='https://summit.com/' target='_blank'>
+            <div class='row border-orange mb-5' style='--bs-gutter-x: 0;'>
+              <a class='col-md-6' href='https://summit.com/' target='_blank'>
                 <img
-                  sizes='(min-width: 1200px) 730w,
-                          (max-width: 1199px) 610w,
-                          (max-width: 380px) 350w'
-                  srcset='/img/summit.png 730w,
-                          /img/tablet_summit.png 610w,
+                  sizes='(max-width: 380px) 350w'
+                  srcset='/img/tablet_summit.png 610w,
                           /img/mobile_summit.png 350w'
-                  src='/img/summit.png'
+                  src='/img/tablet_summit.png'
                   alt='Summit slide'
-                  class='card-img-top'
+                  class='img-fluid top-0 left-0'
                 />
               </a>
-              <div class='card-body'>
-                <h5 class='card-title'>
+              <div class='card border-0 col-md-6'>
+                <h5 class='card-title text-center pt-3'>
                   Summit Supply Electric
                 </h5>
-                <p class='card-text'>
+                <p class='h-100 card-text p-3'>
                   This is the Summit Supply Electric website for which I
                   improved testing suite, improved performance, converted js to
                   Typescript, converted BootstrapCSS to TailwindCSS, updated
                   Elasticsearch (indexing and queries), improved UI and UX for
                   many pages and much more.
                 </p>
-              </div>
-              <div class='text-center'>
-                <a
-                  href='https://summit.com/'
-                  target='_blank'
-                  class='btn btn-dark'
-                >
-                  Link to website
-                </a>
-              </div>
-              <div class='card-footer mt-4'>
-                Date: 12/2020- present
+                <div class='text-center'>
+                  <a
+                    href='https://summit.com/'
+                    target='_blank'
+                    class='btn btn-dark'
+                  >
+                    Link to website
+                  </a>
+                </div>
+                <div class='my-2 text-center'>
+                  Date: 12/2020- present
+                </div>
               </div>
             </div>
-            <div class='card border-orange text-center mb-5'>
-              <a href='https://food-app.devandrei.me/' target='_blank'>
+            <div class='row border-orange mb-5' style='--bs-gutter-x: 0;'>
+              <a
+                class='col-md-6'
+                href='https://food-app.devandrei.me/'
+                target='_blank'
+              >
                 <img
-                  class='card-img-top'
+                  class='img-fluid top-0 left-0'
                   sizes='(min-width: 1200px) 730w,
-                          (max-width: 1199px) 610w,
                           (max-width: 380px) 350w'
-                  srcset='/img/screen1.png 730w,
+                  srcset='
                           /img/tablet_screen1.png 610w,
                           /img/mobile_screen1.png 350w'
-                  src='/img/screen1.png'
+                  src='/img/tablet_screen1.png'
                   alt='First slide'
                 />
               </a>
-              <div class='card-body'>
-                <h5 class='card-title'>
+              <div class='card border-0 col-md-6'>
+                <h5 class='card-title text-center pt-3'>
                   Food Delivery
                 </h5>
-                <p class='card-text'>
+                <p class='h-100 card-text p-3'>
                   This is a project to improve my coding knowledge in Ember JS
                   and TailwindCSS. I made a Food delivery website to practice
                   Ember with building features components running on TailwindCSS
                   with Firebase API.
                 </p>
-              </div>
-              <div class='text-center'>
-                <a
-                  href='https://food-app.devandrei.me/'
-                  target='_blank'
-                  class='btn btn-dark'
-                >
-                  Link to website
-                </a>
-              </div>
-              <div class='card-footer mt-4'>
-                Date: 12/12/2021
+                <div class='text-center'>
+                  <a
+                    href='https://food-app.devandrei.me/'
+                    target='_blank'
+                    class='btn btn-dark'
+                  >
+                    Link to website
+                  </a>
+                </div>
+                <div class='my-2 text-center'>
+                  Date: 12/12/2021
+                </div>
               </div>
             </div>
-            <div class='card border-orange text-center mb-5'>
-              <a href='https://travel-app.devandrei.me/' target='_blank'>
+            <div class='row border-orange mb-5' style='--bs-gutter-x: 0;'>
+              <a
+                class='col-md-6'
+                href='https://travel-app.devandrei.me/'
+                target='_blank'
+              >
                 <img
-                  class='card-img-top'
-                  src='/img/moldova.png'
+                  class='img-fluid top-0 left-0'
+                  src='/img/tablet_moldova.png'
                   sizes='(min-width: 1200px) 730w,
-                          (max-width: 1199px) 610w,
                           (max-width: 380px) 350w'
-                  srcset='/img/moldova.png 730w,
-                          /img/tablet_moldova.png 610w,
+                  srcset='/img/tablet_moldova.png 610w,
                           /img/mobile_moldova.png 350w'
                   alt='First slide'
                 />
               </a>
-              <div class='card-body'>
-                <h5 class='card-title'>
-                  MOLDOVA TRAVEL GUIDE
+              <div class='card border-0 col-md-6'>
+                <h5 class='card-title text-center pt-3'>
+                  Moldova Travel Guide
                 </h5>
-                <p class='card-text'>
+                <p class='h-100 card-text p-3'>
                   This is a project website about destinations, food, and
                   traditions from Moldova. I want to present the country
                   destinations and to make an interactive website which gives
@@ -327,57 +319,55 @@
                   website, I used React Bootstrap to make an active interactive
                   website.
                 </p>
-              </div>
-              <div class='text-center'>
-                <a
-                  href='https://travel-app.devandrei.me/'
-                  target='_blank'
-                  class='btn btn-dark'
-                >
-                  Link to website
-                </a>
-              </div>
-              <div class='card-footer mt-4'>
-                Date: 9/28/2020
+                <div class='text-center'>
+                  <a
+                    class='btn btn-dark'
+                    href='https://travel-app.devandrei.me/'
+                    target='_blank'
+                  >
+                    Link to website
+                  </a>
+                </div>
+                <div class='my-2 text-center'>
+                  Date: 9/28/2020
+                </div>
               </div>
             </div>
-            <div class='card border-orange text-center mb-5'>
-              <a href='https://vladsanteh.de/'>
+            <div class='row border-orange mb-5' style='--bs-gutter-x: 0;'>
+              <a class='col-md-6' href='https://vladsanteh.de/' target='_blank'>
                 <img
-                  class='card-img-top'
-                  src='/img/vladsanteh.png'
+                  class='img-fluid top-0 left-0'
+                  src='/img/tablet_vladsanteh.png'
                   sizes='(min-width: 1200px) 730w,
-                          (max-width: 1199px) 610w,
                           (max-width: 380px) 350w'
-                  srcset='/img/vladsanteh.png 730w,
-                          /img/tablet_vladsanteh.png 610w,
+                  srcset='/img/tablet_vladsanteh.png 610w,
                           /img/mobile_vladsanteh.png 350w'
                   alt='First slide'
                 />
               </a>
-              <div class='card-body'>
-                <h5 class='card-title'>
+              <div class='card border-0 col-md-6'>
+                <h5 class='card-title text-center pt-3'>
                   Plumber website
                 </h5>
-                <p class='card-text'>
+                <p class='h-100 card-text p-3'>
                   This is was a project to create an website for a plumber. The
                   website is running on the latest Ember lts version 4.0.1. It
                   has implemented Google Anallytics, and Google Search Console
                   to track the indexing results and performance. All material
                   (text and images) were provided by the plumber company.
                 </p>
-              </div>
-              <div class='text-center'>
-                <a
-                  href='https://vladsanteh.de/'
-                  target='_blank'
-                  class='btn btn-dark'
-                >
-                  Link to website
-                </a>
-              </div>
-              <div class='card-footer mt-4'>
-                Date: 11/23/2021
+                <div class='text-center'>
+                  <a
+                    class='btn btn-dark'
+                    href='https://travel-app.devandrei.me/'
+                    target='_blank'
+                  >
+                    Link to website
+                  </a>
+                </div>
+                <div class='my-2 text-center'>
+                  Date: 11/23/2021
+                </div>
               </div>
             </div>
           </div>
@@ -385,7 +375,7 @@
       </div>
     </div>
   </section>
-  <footer id='contact-info' class='footer-fluid mt-5 pt-5'>
+  <footer id='contact-info' class='footer-fluids'>
     <div class='column'>
       <span class='d-block text-center p-3 bg-dark text-white'>
         Contact me directly on:

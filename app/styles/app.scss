@@ -37,19 +37,20 @@ h2 {
     font-size: 40px;
 
 }
-.image-profile {
-    margin-top: 1rem;
-    width: 95%;
-    height: auto;
-    transition: transform 0.5s;
-}
 .media-text {
     margin-top: 1rem;
     text-align: justify;
-
 }
+ .media {
+  float: left;
+  width: 150px;
+  shape-margin:20px;
+  margin-right: 20px;
+ }
+
 .media-body {
-text-align: justify;
+  text-align: justify;
+  margin: 0;
 }
 
 .jumbotron-fluid, .input-group-text{
@@ -80,7 +81,6 @@ text-align: justify;
     background-color: #e67e22;
     content: " ";
     width: 70%;
-    margin: 5rem auto 0;
 }
 
 .footer-fluid a .fa {
