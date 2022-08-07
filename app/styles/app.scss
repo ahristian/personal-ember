@@ -57,6 +57,9 @@ h2 {
     background-color: #F49C4D ;
 }
 
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
 .btn{
     background-color: #e67e22;
 }
