@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Andrei Hristian</title>
-    <meta name="description" content="Andrei Hristian website made for person projects">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="img/iconsPuzzleOrange.png" type="image/x-icon"/>
 
-    {{content-for "head"}}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Andrei Hristian</title>
+  <meta name="description" content="Andrei Hristian website made for person projects">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/iconsPuzzleOrange.png" type="image/x-icon" />
 
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/personal-ember.css">
+  {{content-for "head"}}
 
-    {{content-for "head-footer"}}
-  </head>
-  <body>
-    {{content-for "body"}}
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/personal-ember.css">
 
-    <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/personal-ember.js"></script>
+  {{content-for "head-footer"}}
+</head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5RKR2Y1Y0J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
 
-    {{content-for "body-footer"}}
-  </body>
+  gtag('config', 'G-5RKR2Y1Y0J');
+</script>
+
+<body>
+  {{content-for "body"}}
+
+  <script src="{{rootURL}}assets/vendor.js"></script>
+  <script src="{{rootURL}}assets/personal-ember.js"></script>
+
+  {{content-for "body-footer"}}
+</body>
+
 </html>
